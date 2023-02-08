@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+
+    <style type="text/css">
+        .cl1{
+            box-shadow: inset 0 0 6px 4px rgba(7, 34, 86, 0.621);
+            position: relative;
+            z-index: -2;
+        }
+        body{background-color:#E0FFFF;}
+        nav{ background-color: #98FB98;}
+     footer .main-footer{ padding: 20px 0; background: #252525;}
+footer ul{ padding-left: 0; list-style: none;}
+.typo-light h5,  
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{ color: #fff;}
+ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}   
+    </style>
+
+    <title>Card</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-light navbar-expand-sm">
+        <a class="navbar-brand" href="5.6.html">
+          <img src="img/cmit__logo.svg" class="d-inline-block align-top" alt="" width="200" height="50" > 
+        </a>
+        <div class="collapce navbar-collapse" id="IDofMENU">
+            <ul class="navbar-nav mr-auto text-white">
+                <li class="nav-item active">
+                    <a class="nav-link" href="5.6.html">
+                     Главная</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="rasp.html">
+                     Кружки</a>
+                </li>  
+                <li class="nav-item active">
+                    <a class="nav-link"  href="mast.html">
+                     Мастер-классы</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="vak.html">
+                    Запись</a>
+                </li> 
+                                
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Выбор города:</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a id="city1" class="dropdown-item" href="#">Томск</a>
+                        <a id="city2" class="dropdown-item" href="#">Новосибирск</a>
+                        <a id="city3" class="dropdown-item" href="#">Уфа</a>
+                        <a id="city4" class="dropdown-item" href="#">Пермь</a>
+                    </div>
+                </li>
+                
+                
+            </ul>
+            <div >
+                <b>Контактный телефон:</b> 8 800 555-95-10 <br>
+                <b>VK:</b> @digital.school </div>
+            </div>
+    </nav>
+   
+
+    <div class="container-fluid ">
+        <div class="row justify-content-center m-3">
+            <div class="col">
+                <div id="carousel_ID" class="carousel slide"data-ride="true" data-interval="3000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel_ID" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel_ID" data-slide-to="1"></li>
+                        <li data-target="#carousel_ID" data-slide-to="2"></li>
+                        <li data-target="#carousel_ID" data-slide-to="3"></li>
+                    </ol>
+            
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-60" src="img/инж.jpg" width="750" height="500" alt="Первая картинка">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-60" src="img/ислед.jpg" width="750" height="500" alt="Вторая картинка">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-60" src="img/веб.jpg" width="750" height="500" alt="Вторая картинка">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-60" src="img/эл.jpg" width="750" height="500" alt="Вторая картинка">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel_ID" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel_ID" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      </a>
+                </div>
+            </div>
+            <div class="col">
+                <form class="cl1 bg-light">
+                    <div>
+                       <h2 class="p-3 text-center"> Заинтересовались? <br> Заполните анкету! </h2>
+                    </div>
+                    <div class="form-group m-2">
+                        <input type="text" class="form-control" id="FIO"
+                        placeholder="Введите ФИО">
+                    </div>
+                    <div class="form-group m-2">
+                        <input type="text" class="form-control" id="number"
+                        placeholder="Введите номер телефона">
+                    </div>
+                    <div class="form-group m-2">
+                        <input type="text" class="form-control" id="age"
+                        placeholder="Введите возраст ребенка">
+                    </div>
+                    <div class="form-group m-2">
+                        <label for="textAreaID">Напишите ваши пожелания по обучению</label>
+                        <textarea class="form-control" id="textAreaID" row="4">
+                        </textarea>
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="oneOptionCheck">Какой кружок ваш ребенок хотел бы посещать?</label>
+                        <select class="form-control" id="oneOptionCheck">
+                            <option>Исследователи</option>
+                            <option>Инженеры</option>
+                            <option>Электроники</option>
+                            <option>Веб-программисты</option>
+                        </select>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="footer-1">
+        <div class="main-footer widgets-dark typo-light">
+            <div class="container">
+                <div class="row">
+           
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="widget subscribe no-box">
+                        <h5 class="widget-title">Адреса школ в городе Томск:<span></span></h5>
+                        <p>ул. Фёдора Лыткина, 16/1<br>
+                            ул. Интернационалистов, 8/2<br>
+                            ул. Новосибирская, 32<br>
+                            ​ул. Алексея Беленца, 10</p>
+                    </div>
+                </div>            
+        
+                <div class="col-xs-12 col-sm-6 col-md-3">
+        
+                    <div class="widget no-box">
+                        <h5 class="widget-title">Наши контакты:<span></span></h5>
+                        <p><a href="mailto:cmit@cmit.ru" title="glorythemes">cmit@cmit.ru</a></p>
+                        <ul class="social-footer2">
+                            <li class=""><a title="VK" target="_blank" href="https://vk.com/digital.school"><img alt="VK" width="30" height="30" src="img/vk.png"></a></li>
+                            <li class=""><a title="inst" target="_blank" href="https://www.instagram.com/digital.school/"><img alt="inst" width="30" height="30" src="img/инст.png"></a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="widget no-box">
+                        <p>© 2023 ШЦТ<br>
+                            Сеть центров молодёжного инновационного творчества<br>
+                            Школа цифровых технологий</p>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+           
+        
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+
+
+    <script type="text/javascript">
+        $("#city1").click("change", function () {
+            $("#navbarDropdown").text("Томск");
+        });
+        $("#city2").click("change", function () {
+            $("#navbarDropdown").text("Новосибирск");
+        });
+        $("#city3").click("change", function () {
+            $("#navbarDropdown").text("Уфа");
+        });
+        $("#city4").click("change", function () {
+            $("#navbarDropdown").text("Пермь");
+        });
+    </script>
+
+  </body>
+</html>
